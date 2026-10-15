@@ -1,7 +1,7 @@
 WHAT THE PROTEST ASKED FOR
 Demand Selection and the Stop AI Trial
 Joy Zheyun Yang | Georgetown University
-Working paper and replication materials | 15 October 2026
+Working paper and replication materials | 15 October 2026 | Revision 2
 
 READ THE PAPER
 paper/stop_ai_paper.pdf

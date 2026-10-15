@@ -6,7 +6,7 @@ authors:
   - family-names: Yang
     given-names: Joy Zheyun
     affiliation: Georgetown University
-version: "2026-10-15"
+version: "2026-10-15-r2"
 date-released: 2026-10-15
 repository-code: "https://github.com/J0YY/what-the-protest-asked-for"
 keywords:
