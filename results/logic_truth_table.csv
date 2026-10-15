@@ -1,0 +1,9 @@
+build,safe,authorization,source_compliant,sufficient_safety_permission,contradiction
+0,0,0,1,0,0
+0,0,1,1,0,0
+0,1,0,1,0,0
+0,1,1,1,0,0
+1,0,0,0,0,0
+1,0,1,0,0,0
+1,1,0,0,1,1
+1,1,1,1,1,0

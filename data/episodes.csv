@@ -1,0 +1,13 @@
+episode_id,origin_cluster_id,start,end,stratum,organizer_at_time,occurrence_status,eligibility,evidence,relation_to_origin,linkage_confidence
+E01,C01,2025-02-22,2025-02-22,direct_action,Stop AI; additional Justice for Suchir demand,independently_reported,primary,N01;N02;N29,origin,high
+E02,C03,2025-08-22,2025-08-22,direct_action,Derek Allen / Stop AI,announcement; retrospective movement listing,source_only; no eligible independent full news recovered,S03;S16,candidate separate action,unconfirmed occurrence
+E03,C02,2025-11-21,2025-11-22,security_incident,not a protest; former affiliation alleged,independently_reported_lockdown,primary,N03;S04;S14,incident trigger,high
+E04,UNRESOLVED,2025-12-04,2025-12-04,legal,individual Guido Reichstadter,independently_reported_arrest,primary,N04,prior stay-away order; originating charge linkage unresolved,not assigned
+E05,C01,2026-06-01,2026-06-09,legal,defendant Wynd Kaufmyn,trial and conviction announced; internal daily chronology movement-attributed,primary,N12;S05;S06;S07,trial phase,high
+E06,C01,2026-06-22,2026-06-22,legal,defendant and counsel at press conference,independently_reported_sentencing_publicity,primary,N05,sentencing aftermath,high
+E07,C01,2026-08-14,2026-08-14,legal,defendant Wynd Kaufmyn,surrender reported,primary,N06;N13;N14;N15,custodial aftermath,high
+E08,C04,2026-07-11,2026-07-11,coalition_action,Stop the AI Race; Stop AI participation reported,retrospectively_reported; organizer attribution varies,context; no action-specific Stop AI packet coded,N06;discovery results,coalition context,membership is not demand adoption
+E09,C05,2025-11-03,2025-11-03,legal,Public Defender process server,onstage subpoena reported,primary,N16;N17,"earlier prosecutions, exact case linkage unresolved","event high, legal origin unresolved"
+E10,C06,2024-10-21,2024-10-21,direct_action,Stop AI,dated announcement and later photograph caption,historical context,S17;N22,earlier campaign,no event-window independent article recovered
+E11,C07,2026-04-27,2026-04-27,direct_action,Stop AI,independently reported courthouse demonstration,primary,N32,"separate action outside Musk/OpenAI civil trial, not Kaufmyn prosecution",high
+E12,C08,2025-04-01,2025-04-30,direct_action,Stop AI,"eyewitness report, exact day unresolved",feature context only,N31,separate April protest described retrospectively,"month established, day unverified"

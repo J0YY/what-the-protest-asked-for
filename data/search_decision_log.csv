@@ -1,0 +1,61 @@
+query,date,method,outcome,result_URL,inclusion_exclusion,reason
+"""Stop AI"" ""February 22"" 2025 protest OpenAI",2026-10-07,web search,targeted discovery; not exhaustive census,,,
+"""Kaufmyn"" trial June 2026 OpenAI necessity",2026-10-07,web search,targeted discovery; not exhaustive census,,,
+"""StopAI"" ""November 21"" 2025 lockdown",2026-10-07,web search,targeted discovery; not exhaustive census,,,
+"""PauseAI"" protest May 2024 San Francisco",2026-10-07,web search,targeted discovery; not exhaustive census,,,
+"""Stop AI"" ""Kaufmyn"" ""June"" ""2026"" trial news",2026-10-07,web search,targeted discovery; not exhaustive census,,,
+"""Stop AI"" OpenAI protest February 22 2025 Chronicle barricade",2026-10-07,web search,targeted discovery; not exhaustive census,,,
+"""OpenAI"" ""lockdown"" ""November 21, 2025"" Wired",2026-10-07,web search,targeted discovery; not exhaustive census,,,
+"""As OpenAI Unveils Big Update"" KQED pause",2026-10-07,web search,targeted discovery; not exhaustive census,,,
+"site:kqed.org/news ""As OpenAI Unveils Big Update""",2026-10-07,web search,targeted discovery; not exhaustive census,,,
+"site:wired.com/story ""OpenAI Locks Down""",2026-10-07,web search,targeted discovery; not exhaustive census,,,
+"site:pauseai.info ""2024-may"" protest",2026-10-07,web search,targeted discovery; not exhaustive census,,,
+"site:juststopoil.org ""Stonehenge"" ""June"" ""2024""",2026-10-07,web search,targeted discovery; not exhaustive census,,,
+"site:pauseai.info ""2024 May"" ""demands""",2026-10-07,web search,targeted discovery; not exhaustive census,,,
+site:juststopoil.org/2024/06/19 Stonehenge,2026-10-07,web search,targeted discovery; not exhaustive census,,,
+Just Stop Oil five activists sentenced July 18 2024 Reuters,2026-10-07,web search,targeted discovery; not exhaustive census,,,
+"""Stop AI"" ""August 22"" ""2025"" protest",2026-10-07,web search,targeted discovery; not exhaustive census,,,
+"""Kaufmyn"" ""August 14"" 2026 jailed",2026-10-07,web search,targeted discovery; not exhaustive census,,,
+"""Kaufmyn"" ""August"" ""released"" 2026",2026-10-07,web search,targeted discovery; not exhaustive census,,,
+"""Kaufmyn"" ""June 9"" 2026 trial",2026-10-07,web search,targeted discovery; not exhaustive census,,,
+"""Stop AI"" ""July 11"" ""2026"" march",2026-10-07,web search,targeted discovery; not exhaustive census,,,
+"""25404422"" ""instructions""",2026-10-07,web search,targeted discovery; not exhaustive census,,,
+"""CRI-25404422"" court",2026-10-07,web search,targeted discovery; not exhaustive census,,,
+SF Chronicle February action; April Musk/OpenAI trial; September protest,2026-10-07,,,https://www.sfchronicle.com/bayarea/article/three-arrested-s-f-protesting-ai-technology-20181600.php,not coded,only discovery excerpts reviewed; full article not collected
+August 22 yPredict account,2026-10-07,,,,not coded,independent reporting and text provenance not established
+July coalition Indybay and financial press,2026-10-07,,,,discovery only,not a completed coalition source packet; attribution conflict retained
+Wayback CDX and replay: Stop AI Proposal; trial; response; February release,2026-10-07,,,,three body captures recovered; other index-only leads,archive index is not source text; recovery status in documents.csv
+"second collection: conviction, imprisonment, subpoena, December profiles, October campaign",2026-10-11,web search and full body reads,"N12-N22 added, edited rewrites separated from original reporting",,,
+KRON4 June conviction report,2026-10-07,,,https://www.aol.com/articles/sf-jury-convicts-protester-blocked-201531000.html,N12 included once,"publisher inaccessible, full credited AOL republication recovered"
+Politico December 4 profile,2026-10-07,,,https://www.politico.com/newsletters/digital-future-daily/2025/12/04/the-unhinged-group-at-the-edge-of-the-ai-debate-00677130,excluded,"publisher access restriction, no full body recovered"
+WSJ profile date,2026-10-07,,,https://www.wsj.com/tech/ai/anti-ai-activists-disappearance-sam-kirchner-6872879f,N20 contextual,"full public archive copy recovered, July 11 2026 rather than December 2025"
+court criminal portal and records access,2026-10-07,,,https://webapps.sftc.org/crimportal/crimportal.dll,access attempt,browser security verification did not complete; official notice excludes remote underlying record downloads
+October 2024 announcement and linked Google Docs release,2026-10-07,,,,historical source context,dated organizer post and current release export recovered; no event-window independent news body
+IBTimes second collection,2026-10-07,,,,N13/N14 contextual rewrites,"Full current bodies read; broad rejection claims distinguished by issuer and object, with prosecutor quotations separate from journalist narration"
+Long Hamilton climate necessity defense and judicial error,2026-10-07,primary PDF and faculty bibliography,,,L01 literature,2018 printed year; at least 21 US attempts including 11 jury convictions after defense barred; later 100/30 tally separately sourced
+climate necessity defense more than 100 protesters 30 criminal cases,2026-10-07,,,https://animal.law.harvard.edu/news-article/the-rescue-of-animals/,L02 later contextual tally,"Harvard Law program release August 31, 2023; not a count generated by this study"
+"M25 verdict and sentencing reports July 11-18, 2024",2026-10-07,targeted web search and full text reads,,,N11 and N23-N27 legal comparison,"six accessible edited texts about one trial, including one feature and two accounts by same reporter; targeted comparison, not news census"
+Morning Star M25 verdict full article,2026-10-07,,,https://www.gatwickairport.com/on/demandware.static/-/Sites-Gatwick-Library/default/dwb3fd22f0/images/Corporate-PDFs/Injunction/2024.07.17-Neil-Harvey-Witness-Exhibit-Bundle-Part-1.pdf,N23 counted once,publisher partial page checked against complete contemporaneous public exhibit at PDF pages 31-32; date inconsistency recorded
+M25 Hehir trial ruling official record,2026-10-07,,,,S18-S19 legal sources,appeal quotes rights-defense ruling; sentencing remarks document agreed climate facts; no full jury-direction set retrieved
+"""Stop AI"" ""October 21"" ""2024"" OpenAI",2026-10-11,follow-up web search,"targeted follow-up within unchanged September 30 cutoff, not census",,,
+"""Stop AI"" ""February 22"" ""2025"" ban proposal",2026-10-11,follow-up web search,"targeted follow-up within unchanged September 30 cutoff, not census",,,
+"""Stop AI"" ""November"" ""2025"" ""permanent""",2026-10-11,follow-up web search,"targeted follow-up within unchanged September 30 cutoff, not census",,,
+"""Stop AI"" ""December"" ""2025"" shutdown",2026-10-11,follow-up web search,"targeted follow-up within unchanged September 30 cutoff, not census",,,
+"""Stop AI"" OpenAI protest 2024 -site:reddit.com -site:facebook.com -site:youtube.com",2026-10-11,follow-up web search,"targeted follow-up within unchanged September 30 cutoff, not census",,,
+"""Stop AI"" OpenAI protest 2026 -site:reddit.com -site:facebook.com -site:youtube.com",2026-10-11,follow-up web search,"targeted follow-up within unchanged September 30 cutoff, not census",,,
+"""Stop AI"" ""permanent"" ""2025"" protest -site:reddit.com -site:facebook.com -site:youtube.com",2026-10-11,follow-up web search,"targeted follow-up within unchanged September 30 cutoff, not census",,,
+"""Stop AI"" ""trial"" ""2026"" -site:reddit.com -site:facebook.com -site:youtube.com",2026-10-11,follow-up web search,"targeted follow-up within unchanged September 30 cutoff, not census",,,
+follow-up full publisher read,2026-10-11,,,https://unherd.com/2026/02/inside-the-ai-resistance/,N28 included,"full body recovered and initially AI-coded October 11; author verification and reconciliation completed October 13, with unresolved judgments and adjudications retained"
+follow-up full publisher read,2026-10-11,,,https://www.sfchronicle.com/bayarea/article/three-arrested-s-f-protesting-ai-technology-20181600.php,N29 included,"full body recovered and initially AI-coded October 11; author verification and reconciliation completed October 13, with unresolved judgments and adjudications retained"
+follow-up full publisher read,2026-10-11,,,https://fortune.com/2026/04/15/pause-ai-and-stop-ai-meet-the-anti-ai-groups-facing-questions-after-the-attack-on-sam-altman/,N30 included,"full body recovered and initially AI-coded October 11; author verification and reconciliation completed October 13, with unresolved judgments and adjudications retained"
+follow-up full publisher read,2026-10-11,,,https://www.theatlantic.com/technology/archive/2025/05/silicon-valley-reacts-to-trump/682799/,N31 included,"full body recovered and initially AI-coded October 11; author verification and reconciliation completed October 13, with unresolved judgments and adjudications retained"
+follow-up full publisher read,2026-10-11,,,https://www.sfchronicle.com/tech/article/elon-musk-openai-trial-22228584.php,N32 included,"full body recovered and initially AI-coded October 11; author verification and reconciliation completed October 13, with unresolved judgments and adjudications retained"
+September 17 Chronicle march,2026-10-11,,,https://www.sfchronicle.com/bayarea/article/open-ai-anthropic-extinction-protest-22435148.php,outside Stop AI news denominator,Stop the AI Race organizes action; Kaufmyn speaks individually; report does not identify Stop AI as organizer or attribute organization policy; membership alone does not establish adoption
+July 12 Indybay photo report,2026-10-11,,,https://www.indybay.org/newsitems/2026/07/12/18887364.php,"source/discovery lead, not edited news",open-publishing participant report outside edited-news criterion; coalition source packet still incomplete
+October 2024 Doom Debates podcast,2026-10-11,,,https://metacast.app/podcast/doom-debates/orEwVtjZ/getting-arrested-for-barricading-openai-s-office-to-stop-ai/5MaAuxsp,discovery only,podcast outside edited-news criterion; primary transcript and historical policy wording not recovered
+The Real News workers feature,2026-10-11,,,https://therealnews.com/workers-replaced-by-ai-have-a-dire-warning,"discovery only, not coded",search lead not fully screened; no census-completion claim
+Colston acquittal route to verdict official judgment,2026-10-13,,,https://www.judiciary.uk/wp-content/uploads/2022/09/AG-Ref-No-1-of-2022-Final-Judgment.pdf,S20 documentary comparator outside coded news collection,contrasting acquittal outcome with publicly quoted jury question; selection tests limits of procedural verification rather than estimating frequency
+"""The Hard-Line Activists Ramping Up for the War With AI"" ""permanent global ban""; ""April 2025""; ""Solstice""",2026-10-15,"Codex web search, publisher and indexed archive passages",,https://www.wsj.com/tech/ai/anti-ai-activists-disappearance-sam-kirchner-6872879f,Complete coding of existing N20; no added news text,Recover policy passages and screen full recovered sequence; preserve access limitations
+Kaufmyn CRI-25404422 jury instructions verdict form,2026-10-15,Codex public web search,,,No official instructions or verdict form obtained,No further outreach; movement account remains attributed
+Colston reference paragraphs 2 14 15 123; Juries Act 1974 section 20D; Contempt of Court Act 1981 section 8,2026-10-15,Official judiciary and legislation sites,,,Verify legal comparison and current England/Wales provision,Section 8 repealed for England/Wales in 2015; section 20D governs deliberation disclosure/solicitation
+Morning Star M25 complete witness-exhibit reproduction; six Kaufmyn article bodies,2026-10-15,Full source reading through publisher texts and public exhibit,,,N23 coding completed; six instruction-coverage observations added,Separate merits rejection from assignment of procedural ruling; do not infer signed instructions from news

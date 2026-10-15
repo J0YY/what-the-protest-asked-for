@@ -1,0 +1,15 @@
+{
+  "author_verified_decisions": 415,
+  "reconciled_decisions": 442,
+  "source_adjudicated_fields": 2,
+  "source_adjudicated_article": "N30",
+  "independent_second_coder": false,
+  "earlier_author_unresolved_decisions": 27,
+  "source_completed_decisions": 19,
+  "comparison_not_applicable": 6,
+  "comparison_evidence_limit": 2,
+  "pending_source_coding_decisions": 0,
+  "new_instruction_coverage_checks": 6,
+  "completion_checked_by": "Codex; no additional author verification",
+  "consistency_corrected_fields": 1
+}

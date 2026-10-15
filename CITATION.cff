@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the working paper and identify the repository version used."
+type: article
+title: "What the Protest Asked For: Demand Selection and the Stop AI Trial"
+authors:
+  - family-names: Yang
+    given-names: Joy Zheyun
+    affiliation: Georgetown University
+version: "2026-10-15"
+date-released: 2026-10-15
+repository-code: "https://github.com/J0YY/what-the-protest-asked-for"
+keywords:
+  - protest coverage
+  - artificial intelligence
+  - policy demands
+  - legal reporting

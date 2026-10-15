@@ -1,0 +1,62 @@
+CODING RULES
+
+Units
+The policy collection contains 24 distinct edited Stop AI news texts, including
+11 event reports. Exact republications count once. Rewrites remain separate texts
+with source dependence recorded. Legal comparison counts refer to six Kaufmyn
+accounts and six M25 accounts, not independent trials or investigations.
+
+Policy visibility
+ai_intervention_visible=1 requires an attributed concrete restriction on AI or
+its developer. A protest location, coalition name, risk grievance, or investigation
+demand alone is insufficient. permanent_visible=1 requires stated permanence.
+Attribution is to the relevant Stop AI organization or participant at the time of
+the reported statement. PauseAI positions and older predecessor remarks remain
+separate. Technology, activity, duration, resumption conditions, and authority
+are recorded separately; AGI and ASI are not treated as interchangeable.
+
+Historical comparison
+source_vintage_eligible=1 requires a recovered earlier body appropriate to the
+statement being compared. full_policy_assessable=1 additionally requires a
+complete actor-and-policy match. A later capture cannot retrospectively establish
+what an earlier page said. A generic organization platform is not automatically
+a benchmark for every individual member's statement.
+
+Substitution
+explicit_sufficient_permission_substitution=1 requires a reported sufficient
+arrangement incompatible with an explicit source prohibition. Omission alone
+does not establish a contradictory policy. Requiring safety evidence is a
+necessary-condition claim, not sufficient permission to resume. The zero count
+is a screen for observed contradictions, not an estimate of full policy fidelity.
+
+Legal attribution
+rejection_present=1 includes an explicit or implicit claim that the jury rejected
+the relevant justification. A verdict alone, or a defendant's surprise at it,
+does not meet this rule. The issuer and object of each claim must be retained.
+An implicit pronoun remains implicit; it is not silently recoded as necessity.
+The article-level table highlights the most focused claim, while the claim-level
+file preserves additional prosecutor quotations in Guardian and IBTimes August 18.
+
+judicial_decision_assigned_to_jury=1 records narration assigning a judicial
+procedural ruling to jurors. It is distinct from claiming rejection on the merits.
+Morning Star has the former code but no merits-rejection claim.
+necessity_instruction_withheld_reported=1 would record mention of the movement's
+claim that the necessity instruction was withheld. Its observed value of zero in
+all six accounts establishes a reporting absence, not the actual instruction.
+
+Evidence status
+Movement allegations, prosecutor statements, counsel accounts, news narration,
+and official judicial documents have different evidentiary roles. The M25 appeal
+quotes the judge's proposed-defense ruling; the sentencing remarks identify some
+contextual climate facts. Neither is a complete jury-instruction transcript.
+Colston documents the trial judge's final proportionality question and the appeal
+court's holding that it should not have reached the jury. The acquittals stand,
+and their grounds cannot be identified from the general verdict.
+
+Verification provenance
+Author verification is a human source-and-code review, not independent double
+coding. Later Codex source checks and source-based corrections are identified
+separately in verification_provenance.csv and completion_dispositions.csv.
+Not applicable means no policy proposition supplies the comparison. Not estimable
+means a proposition exists but the necessary earlier same-actor source was not
+recovered. Neither category is an unrecorded zero or a promised future reading.

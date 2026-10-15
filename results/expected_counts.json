@@ -1,0 +1,59 @@
+{
+  "primary_news_texts": 11,
+  "primary_episodes": 8,
+  "stop_ai_news_with_context": 24,
+  "comparator_news_texts": 8,
+  "known_primary_origin_clusters": 4,
+  "unresolved_primary_cluster_texts": 1,
+  "source_vintage_eligible_primary_pairs": 7,
+  "complete_policy_assessable_primary_pairs": 0,
+  "H2_confirmed_dual_eligible_paired_packets": 0,
+  "trial_aftermath_texts": 6,
+  "necessity_rejection_texts": 5,
+  "rejection_claim_sources": 3,
+  "rejection_quoted_prosecutor_texts": 4,
+  "necessity_instruction_withheld_reported": 0,
+  "m25_legal_comparison_texts": 6,
+  "m25_merits_rejection": {
+    "positive": 0,
+    "assessed": 6,
+    "unassessed": 0
+  },
+  "m25_decision_assignment": {
+    "positive": 1,
+    "assessed": 6,
+    "unassessed": 0
+  },
+  "policy_intervention": {
+    "positive": 19,
+    "assessed": 24,
+    "unassessed": 0
+  },
+  "policy_permanence": {
+    "positive": 9,
+    "assessed": 24,
+    "unassessed": 0
+  },
+  "substitution_screen": {
+    "positive": 0,
+    "assessed": 24,
+    "unassessed": 0
+  },
+  "by_stratum": {
+    "direct_action": {
+      "texts": 4,
+      "ai_intervention_visible": 3,
+      "permanent_visible": 1
+    },
+    "legal": {
+      "texts": 6,
+      "ai_intervention_visible": 5,
+      "permanent_visible": 1
+    },
+    "security_incident": {
+      "texts": 1,
+      "ai_intervention_visible": 0,
+      "permanent_visible": 0
+    }
+  }
+}

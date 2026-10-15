@@ -1,0 +1,35 @@
+WORKING PAPER SUBMISSION MATERIALS
+
+Title
+What the Protest Asked For: Demand Selection and the Stop AI Trial
+
+Author
+Joy Zheyun Yang
+
+Affiliation
+Georgetown University
+
+Proposed arXiv category
+cs.CY (Computers and Society), subject to arXiv classification and moderation.
+
+Status
+Working paper, not peer reviewed. No arXiv or SocArXiv identifier has been assigned.
+No preprint-server submission has been made. The arXiv browser session is not
+signed in. The author must supply account access and approve the submission
+license; endorsement may also be required by the service.
+
+Files
+paper/stop_ai_paper.tex is standalone, with an embedded bibliography and tables.
+paper/stop_ai_paper.pdf is the corresponding compiled paper.
+
+Abstract
+When the activist group Stop AI blockaded OpenAI's headquarters, they presented two distinct demands, a prohibition on advanced AI development and an investigation into the death of a former employee. The dual focus gave journalists multiple angles to cover. Here, we examine which proposed AI restrictions news reports conveyed, and whose interpretation they carried when a jury convicted a participating protester. Among 24 Stop AI news texts, 19 mentioned an AI intervention, but only 9 of those 19 stated that it should be permanent. Coverage often identified an intervention without explaining how long it would last, even though duration distinguished a permanent prohibition from a conditional pause. In the trial coverage, five of six accounts carried a claim, explicit or implicit and often voiced by a quoted speaker, that the jury rejected the protester's justification. All five trace back to three origins, the prosecutor's statement and reporting by The Standard and The Guardian. None mentioned the movement's claim that the judge withheld a necessity instruction, which we could not verify against official instructions. Comparisons with the M25 climate-protest trial and the Colston statue acquittals show what judicial records can establish about the questions jurors were allowed to consider, while leaving the reasoning behind a general verdict unknown.
+
+Research assistance disclosure
+Codex assisted source retrieval, initial coding, subsequent source checks, code,
+and manuscript editing. The author was the sole human reviewer. The paper and
+data distinguish author verification from later model-assisted judgments.
+
+Rights
+No redistribution license has been selected for preprint submission. No license
+covering the third-party news articles is asserted or granted by this package.

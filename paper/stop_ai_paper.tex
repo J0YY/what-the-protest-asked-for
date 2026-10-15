@@ -1,0 +1,421 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,amsmath,amssymb,booktabs,array,longtable,graphicx,xcolor,caption,tabularx}
+\usepackage{xurl}
+\usepackage[colorlinks=true,allcolors=blue!45!black]{hyperref}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{enumitem}
+\usepackage{placeins}
+\setlist{nosep}
+\raggedbottom
+\clubpenalty=10000
+\widowpenalty=10000
+\captionsetup{font=small,labelfont=bf,skip=6pt,labelsep=period,hypcap=false}
+\setlength{\textfloatsep}{14pt plus 2pt minus 2pt}
+\setlength{\floatsep}{12pt plus 2pt minus 2pt}
+\setlength{\intextsep}{12pt plus 2pt minus 2pt}
+\renewcommand{\topfraction}{.92}
+\renewcommand{\bottomfraction}{.85}
+\renewcommand{\textfraction}{.08}
+\renewcommand{\floatpagefraction}{.75}
+\renewcommand{\arraystretch}{1.08}
+\makeatletter
+\setlength{\@fptop}{0pt}
+\setlength{\@fpsep}{16pt}
+\makeatother
+\setlength{\emergencystretch}{2em}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcommand{\src}[1]{\texttt{#1}}
+\hypersetup{pdftitle={What the Protest Asked For},pdfauthor={Joy Zheyun Yang}}
+\title{\bfseries What the Protest Asked For:\\Demand Selection and the Stop AI Trial}
+\author{Joy Zheyun Yang\\[0.35em]\normalsize Georgetown University}
+\date{}
+\begin{document}
+\maketitle
+\begin{abstract}
+When the activist group Stop AI blockaded OpenAI's headquarters, they presented two distinct demands, a prohibition on advanced AI development and an investigation into the death of a former employee. The dual focus gave journalists multiple angles to cover. Here, we examine which proposed AI restrictions news reports conveyed, and whose interpretation they carried when a jury convicted a participating protester. Among 24 Stop AI news texts, 19 mentioned an AI intervention, but only 9 of those 19 stated that it should be permanent. Coverage often identified an intervention without explaining how long it would last, even though duration distinguished a permanent prohibition from a conditional pause. In the trial coverage, five of six accounts carried a claim, explicit or implicit and often voiced by a quoted speaker, that the jury rejected the protester's justification. All five trace back to three origins, the prosecutor's statement and reporting by \textit{The Standard} and \textit{The Guardian}. None mentioned the movement's claim that the judge withheld a necessity instruction, which we could not verify against official instructions. Comparisons with the M25 climate-protest trial and the Colston statue acquittals show what judicial records can establish about the questions jurors were allowed to consider, while leaving the reasoning behind a general verdict unknown.
+
+\end{abstract}
+
+\section{Introduction}
+When a retired teacher was jailed for blockading OpenAI's doors, news coverage readily supplied an interpretation of the jury's verdict. \textit{The Standard}, for instance, recounted Wynd Kaufmyn's defense that the blockade prevented greater harm, noted testimony on AI risks from Stuart Russell, a computer-science professor at the University of California, Berkeley, and stated, ``The jury did not buy it'' \citep{shugerman}. The sentence invites readers to see the conviction as a rejection of her defense, although its ambiguous pronoun leaves unclear which part of that defense the report means.
+
+What brought Kaufmyn to court had already presented reporters with a choice about what to explain. On February 22, 2025, Stop AI blocked doors at OpenAI's San Francisco headquarters under the banner ``Stop AI / Justice For Suchir,'' combining opposition to advanced AI development with calls to investigate former employee Suchir Balaji's death \citep{stoprelease}. Describing activists as ``worried about AI safety'' obscures the policies that would satisfy their demands, because a permanent prohibition on AI development differs from a temporary pause awaiting a safety assessment. Even when reports mention a ``ban,'' they can leave its duration ambiguous or leave unclear whether the demand represents the organizational stance, an individual protester's opinion, or an expert witness's testimony.
+
+In this paper, we ask which proposed AI restrictions news coverage explained to the public, and whose interpretation of Kaufmyn's conviction it presented as a rejection of the protesters' justification. To answer them, we compare reports of the initial blockade against dated movement statements, and trace this coverage through Kaufmyn's prosecution. We then contextualize these findings using the trial of Just Stop Oil, a climate campaign whose defendants were prosecuted over plans to block London's M25 motorway, and the Colston statue acquittals, whose basis the public record leaves unknown. Together, these comparisons show how to evaluate a movement's coverage without assuming that an isolated activist quote dictates policy, or that a general verdict explains juror reasoning.
+
+\section{Protest coverage and legal judgment}
+Research on protest reporting has long separated capturing public attention from communicating the issues driving it \citep{smith}. \citet{amenta} highlight this distinction by measuring how often media transmits a movement's demands, finding that the reason an organization makes the news, such as arrests or internal conflicts, heavily influences whether its policy goals are explained. Building on this, we examine whether reports on the Stop AI blockade successfully conveyed the group's proposed technological restrictions, even when the coverage centered heavily on arrests or the death of a former employee.
+
+Capturing an activist's policy demand requires more than quoting their grievances. In the abstract of their study of protest quotations, \citet{caren} distinguish statements about grievances, demands, and participation, a distinction that guides our reading of the policy content within a quotation. To assess whether the media captured Stop AI's demands, we compare the published reports against dated source statements from the movement to verify the proposed technology, duration, and conditions of their AI restrictions.
+
+Other studies show why substantive content cannot be read from tone alone. Coverage of the Indignados in Spain and Greece, for instance, often celebrated public discontent while largely ignoring the protesters' political alternatives \citep{indignados}. \citet{umamaheswar} found that coverage of Black Lives Matter could frame protesters sympathetically while still centering the narrative on the harmful consequences for police. Chilean television coverage likewise distinguished forms of protest it treated as legitimate \citep{chile}. These examples guide our approach, so we evaluate what a report explains and whose interpretation it relies on, rather than assuming that an unfavorable story automatically suppresses a demand or a favorable one accurately explains it.
+
+The stakes of reporting these demands extend beyond media framing, particularly when dealing with emerging technology. Often, public debates about a technology's "risks" or "biases" can displace the debate over whether the technology should be developed or used at all. \citet{green} argues that public institutions should justify the adoption of algorithms rather than rely on human oversight. \citet{katell} found that framing tech harms around algorithmic bias can obscure the prior question of whether that technology should even exist. AI-refusal scholarship challenges the presumption that technological development is inevitable \citep{lynch,mansouri}, while \citet{hepp} examines competing Bay Area AI futures and \citet{nguyen} studies news framing of data and AI risks.
+
+When protests enter the courtroom, a judge's control over which defenses a jury may apply creates another interpretive problem. In cases involving the ``necessity defense,'' which justifies lawbreaking as a means to prevent greater harm, presenting evidence about a danger does not grant the jury the right to acquit based on that danger. \citet[pp.~61, 108--114]{long} identify at least twenty-one US attempts to assert climate necessity, including eleven jury convictions after judges barred the defense. Their account shows why the procedural availability of a defense matters when interpreting a conviction, even where jurors hear evidence of the danger that motivated the protest. A later release from Harvard Law School's Animal Law \& Policy Program, discussing necessity in an animal-rescue case, separately reported that more than one hundred climate protesters had sought to invoke the defense in more than thirty criminal cases since 2009 \citep{harvard}. These sources document judicial restrictions on a defense, establishing a risk of misreading verdicts that this paper examines in news coverage.
+
+\section{Reading the proposed restriction}
+We separate a speaker's stated problem from the action they request, since stating a fear of "losing control of AI" does not prescribe a legislative or corporate remedy. For each policy mentioned in the text, we isolate and record five components, the technology covered, the restricted activity, the duration of the restriction, the conditions required to resume development, and the designated decision-maker. Appendix~\ref{app:codebook} gives the rules for identifying those components and the source needed to compare them.
+
+When comparing a news report against a movement's stated demands, our analysis follows the stated rule without inferring unstated conditions. Arguing that AI development requires ``safety evidence'' does not mean that providing such evidence automatically grants permission to resume. Because a conditional pause can last indefinitely if its requirements are never met, we determine the duration of ambiguous words like ``halt'' from the surrounding context.
+
+We use two indicators to track how these demands appear in the press. An \textit{intervention indicator} records whether an article attributes a restriction on AI or its developer, such as a shutdown or a slowdown, while a separate indicator tracks whether that restriction is described as \textit{permanent}. Mentioning the protest's location or the name of the coalition is not enough to trigger these indicators. If a news report leaves out a requirement that the movement stated, we classify this as an omission, which does not itself attribute an incompatible rule to the protesters. Appendix~\ref{app:logic} outlines the test used to identify such a rule, which requires evidence beyond missing details.
+
+\section{The case and its documentary record}
+Four months before the February blockade, Stop AI planned for prosecution as part of its campaign. The campaign linked its direct actions to the prospect of arguing a necessity defense in court. As early as October 2024, an organizer post announced an upcoming sit-in at OpenAI's Florida Street entrance and outlined plans to seek this legal defense \citep{october}. KQED later quoted Guido Reichstadter describing door blockades from October through February \citep{krans}.
+
+To evaluate how accurately the media captured the movement's goals during these actions, we need a reliable baseline of their demands. The earliest recovered policy text is an organizational proposal captured on February 1, 2025. This document opens with a direct call for a permanent ban on human-level AI development \citep{stopproposal}. It details provisions targeting general-purpose models at or above a GPT-4 capability reference, including the destruction of existing models in that class. However, the proposal expressly rejects a blanket, unconditional ban on \textit{all} AI applications. These provisions give us a dated benchmark for comparing reported restrictions without treating every use of the word ``AI'' as the same technology category.
+
+The movement's February press release also called for a permanent ban, though its pre-event revision was not recovered \citep{stoprelease}. Current organizational pages include a permanent artificial superintelligence (ASI) ban, while the archived trial page attributes to Kaufmyn a worldwide prohibition on research and development aimed at building ASI \citep{stopabout,stopstatement,stoptrial}. The terminology changes between sources, from human-level AI and artificial general intelligence (AGI) in the February 2025 proposal to ASI in the 2026 trial account. We retain each source's terms, so a 2026 report of Kaufmyn's ASI demand is compared with her dated statement where available, without treating the earlier organizational demand as interchangeable with it.
+
+Kaufmyn's charges arose from the February 22 blockade, when she chained herself to the Third Street entrance and refused to leave, and the District Attorney announced convictions for four misdemeanors involving interference with a business, trespass, unlawful assembly, and refusal to disperse \citep{da}. Gazetteer's sentencing report states that she received fourteen days in jail, while attributing to her defense counsel the account that the business-interference count was dismissed on First Amendment grounds \citep{hayes}.
+
+Beyond the initial blockade and Kaufmyn's trial, this study also accounts for other highly publicized events in the campaign's timeline. These include a November 2025 onstage subpoena tied to earlier prosecutions, an OpenAI office lockdown that same month, and a subsequent arrest in December \citep{subpoena,wired,krans}. The lockdown followed an alleged threat associated with Stop AI co-founder Sam Kirchner, whose disappearance and reported break with the group's nonviolence commitment became the focus of later profiles \citep{wired,atlantic}. By linking these events to the broader Stop AI campaign in our inventory, we distinguish new occurrences from further coverage of the same underlying prosecution or organizational crisis.
+
+\section{Collection and comparison}
+\subsection{Which reports enter the collection}
+To build our dataset, we searched news publications for coverage spanning January 1, 2024, to September 30, 2026. We used Codex web search and targeted outlet queries on October 7 and October 11, 2026, searching participant names, event dates, and court case numbers alongside the movement's history index \citep{stophistory}. Internet Archive index and replay searches supplied dated movement-page versions, while further checks on October 13 and October 15 verified source passages and the Colston judgment without expanding the news collection. The released search record lists queries, dates, and inclusion decisions, although the tools did not record which underlying commercial search provider returned the initial results. All 24 collected Stop AI texts enter the intervention, permanence, and substitution screens, including the WSJ profile whose policy passages were recovered through indexed publisher and archive text.
+
+To structure the analysis, we categorized the collected articles by their relation to a dated occurrence. ``Event reports'' cover an action, arrest, verdict, sentencing, surrender, or subpoena on the day it occurred or within seven days afterward, with a June 1--9 window for the trial phase. Gazetteer's June 22 sentencing report and the Guardian's August 16 account of Kaufmyn's August 14 surrender therefore qualify, even though both appeared months after the blockade. We classified previews, interviews organized around a participant, retrospective features, and derivative rewrites as ``contextual texts,'' including the Standard's August interview and the two IBTimes rewrites despite their proximity to surrender. An \textit{Atlantic} story about an April action also remained contextual because it lacked a calendar date for that action. To avoid double-counting, identical republications were grouped with their originating article, while the two \textit{IBTimes} rewrites remained distinct texts with shared sourcing recorded. Movement posts and official press releases supplied procedural evidence and baseline claims outside the denominator of news texts.
+
+
+\begin{table}[!htbp]
+\centering\small
+\begin{tabularx}{\textwidth}{Y r Y}
+\toprule Material & Count & Use in the analysis\\\midrule
+Candidate action and news windows & 12 & Includes historical leads and an action dated only to a month.\\
+Stop AI news texts & 24 & Eleven event reports and thirteen contextual texts.\\
+Occurrences in the event-report set & 8 & Includes conviction, surrender, and subpoena publicity.\\
+Known origins shared by event reports & 4 & February case, lockdown, subpoena, and courthouse action.\\
+Comparator news texts & 8 & Six M25 legal accounts and two policy contrasts.\\
+Judicial cases used for documentary comparison & 3 & Kaufmyn, M25, and Colston, with different record availability.\\
+\bottomrule
+\end{tabularx}
+\caption{Inventory of source roles and event links. The Colston judgment adds a case comparison without increasing the news-text denominator.}
+\label{tab:attained}
+\end{table}
+
+\FloatBarrier
+\subsection{How we compare sources and claims}
+For every policy mentioned in a news report, we identified whose position was being described and matched it against an earlier, dated movement source to evaluate its accuracy. For instance, the February 1 organizational proposal predates the blockade coverage, making it a reliable baseline. By contrast, the archived trial-page captures from June 29 and August 4, 2026, contain identical policy text and predate the August news articles, but their later capture dates mean they cannot be used as contemporaneous benchmarks for the June sentencing coverage. As a result of these temporal gaps, no single event-report pair contained a complete match across the entire bundle of proposed policies.
+
+When analyzing the legal coverage, we tracked claims that the jury's verdict rejected the protesters' justification. We separated implicit suggestions from explicit statements and identified the speaker, distinguishing a prosecutor's criticism of the protest's methods from a claim that the jury rejected the necessity defense. Where an article carried several interpretations, we recorded their respective sources, while Table~\ref{tab:narrative} highlights the claim that most directly identifies what the jury supposedly rejected. We applied the same tracking method to the six M25 articles published in July 2024, adding a field for whether the article assigned a relevance or defense ruling to the judge or the jury.
+
+The author was the sole human coder, with Codex assisting source retrieval, initial coding, and consistency checks. The author reviewed the source materials and confirmed her coding decisions, which we retained alongside the final analytical values so that later corrections remained visible. Source-based reconciliation resolved conflicts between a recorded interpretation and the attributed policy passage, including a Fortune passage that named a protest target without stating a restriction. Codex completed the WSJ and Morning Star readings and checked the six Kaufmyn reports for references to a withheld necessity instruction, with those subsequent checks identified separately from author verification. We report no intercoder reliability statistic because there was no independent second human coder.
+
+The source inventory, coded observations, field-level verification records, search decisions, and scripts reproducing the descriptive totals are available with the manuscript at \url{https://github.com/J0YY/what-the-protest-asked-for}. The repository links to source texts and records passage locations and version limits, while keeping the published articles themselves with their original hosts.
+
+\section{What the reports convey}
+\subsection{One blockade and its two causes}
+When covering the February blockade, news outlets differed in how they explained what would satisfy the protesters. For example, KTVU reported the group's demand for a permanent ban on AGI development \citep{ktvu,stopproposal}. This matched the movement's foundational proposal, successfully conveying a substantive restriction to readers without forcing them to read the full platform (such as the granular provisions about destroying GPT-4-level models). In contrast, \textit{Golden Gate Xpress}, San Francisco State University's student newspaper, focused on the demand to investigate Suchir Balaji's death and quoted general concerns about AI risk  \citep{singh,xpressabout}, but never stated an AI restriction. Because this omission occurred while covering a genuine demand from the group's joint agenda, it left the AI policy unexplained without attributing a different one. Meanwhile, the \textit{Chronicle} captured both the investigation demand and opposition to AGI development, including a chant to close OpenAI, but did not state the duration of the requested halt \citep{ho}. These three reports of the same action illustrate demand selection, the choice of which parts of a movement's stated agenda a report explains to its readers.
+
+\begin{table}[!htbp]
+\centering\small
+\begin{tabularx}{\textwidth}{Y r r r}
+\toprule Setting & Event reports & AI intervention & Permanent duration\\\midrule
+Direct action & 4 & 3 & 1\\
+Legal publicity & 6 & 5 & 1\\
+Security incident & 1 & 0 & 0\\
+\bottomrule
+\end{tabularx}
+\caption{Policy content in the eleven event reports. The intervention indicator excludes the investigation demand and an older predecessor quotation.}
+\label{tab:visibility}
+\end{table}
+
+Across all twenty-four Stop AI texts, nineteen mentioned an AI intervention, but only nine stated that the restriction should be permanent. This ambiguity over duration and mechanism appeared beyond the February coverage. For instance, KQED's coverage of a December arrest quoted Guido Reichstadter's demand to end the race to ASI, without establishing its duration or making his individual statement the group's policy \citep{krans}. An April 2026 \textit{Chronicle} courthouse story described a costumed performance and signs demanding a ``stop to AI'' without outlining a policy mechanism \citep{courthouse}, and a May 2025 \textit{Atlantic} feature highlighted risk grievances and a skit about universal basic income without mentioning an AI restriction at all \citep{wong}. Across the collection, we found zero explicit substitutions of sufficient safety-based permission for a prohibition in twenty-four assessed texts, although the absence of a complete historical policy match prevents treating that screen as a measure of overall fidelity.
+
+\subsection{How reports interpreted the conviction}
+\label{sec:trial}
+The challenge of accurately conveying a movement's platform was mirrored in the media's interpretation of Wynd Kaufmyn's trial. On June 9, 2026, the District Attorney announced Kaufmyn's conviction and immediately supplied a framing for the verdict \citep{da}. KRON4 quoted District Attorney Brooke Jenkins stating that the verdict rejected the use of public danger as a means to an end, a statement later repeated by the \textit{IBTimes} \citep{kron,ib17}. This interpretation came from the prosecutor, whose criticism of the protest's methods does not establish which legal questions the jury considered.
+
+Other accounts offered different sources for their rejection claims. \textit{The Standard} implicitly linked the verdict to a rejection of the defense overall, leaving the referent of its closing pronoun ambiguous \citep{shugerman}. We retained that ambiguity in its code, while the \textit{Guardian} quoted a supporter asserting rejection of necessity. The August 18 \textit{IBTimes} account narrated rejection of Kaufmyn's argument and credited the Guardian, with both articles also carrying the prosecutor's interpretation \citep{guardian,ib18}. By contrast, the \textit{Gazetteer} focused on the sentencing and defense counsel's statements, including Kaufmyn's surprise at the verdict given Russell's testimony, without asserting that jurors rejected her justification \citep{hayes}.
+
+\begin{table}[!htbp]
+\centering\small
+\begin{tabularx}{\textwidth}{P{0.18\linewidth} Y Y}
+\toprule Report & Rejection claim & Speaker and source\\\midrule
+KRON4, June 9 & Explicit general justification & Quoted prosecutor. District Attorney statement.\\
+Gazetteer, June 22 & Absent & Sentence and counsel's dismissal account.\\
+Standard, Aug. 14 & Implicit defense rejection & Journalist narration with an ambiguous pronoun.\\
+Guardian, Aug. 16 & Explicit necessity rejection & Quoted supporter in Guardian reporting, alongside prosecutor quotation.\\
+IBTimes, Aug. 17 & Explicit general justification & Repeats the prosecutor's statement.\\
+IBTimes, Aug. 18 & Explicit argument rejection & Journalist narration crediting Guardian, alongside prosecutor quotation.\\
+\bottomrule
+\end{tabularx}
+\caption{Rejection claims in six accounts of the trial's aftermath. Repetition of a quoted interpretation does not provide another account of juror reasoning.}
+\label{tab:narrative}
+\end{table}
+
+Five texts carried a claim, explicit or implicit, that the jury rejected the protesters' justification, and all trace back to three origins, the prosecutor's statement and reporting by \textit{The Standard} and \textit{The Guardian}. Four of the five include the prosecutor's quotation, with the Guardian and the August 18 IBTimes also carrying the more focused claims shown in Table~\ref{tab:narrative}. These counts describe the circulation of attributed interpretations, without turning repeated quotations into independent accounts of juror reasoning.
+
+None of the six reports mentioned Stop AI's claim that the judge declined to instruct the jury on the necessity defense and instead gave a ``mistake of law'' instruction \citep{stoptrial}. That absence is directly observable in the coverage, although the movement's procedural account remains unverified. We did not obtain official jury instructions or a verdict form from the court portal, whose remote-access notice does not establish that the records are unavailable through the clerk \citep{courtaccess}. Without those documents, we cannot determine whether a rejection claim misdescribed the questions submitted to the jury, but we can identify its speaker and the absence of the reported instructional restriction from all six news accounts.
+
+\subsection{Keeping the witness's position separate}
+During the trial coverage, reporters also had to navigate the distinct viewpoints of the defendant and her expert witness. The August 18 \textit{IBTimes} report correctly distinguished Kaufmyn's demand for a permanent ban on ASI from Stuart Russell's testimony, which instead called for rigorous safety guarantees before advancing AI development \citep{stoptrial,ib18}. His prerequisite covers a broader technology class and differs from her prohibition, while August 17 IBTimes also separates her ban from his evidence \citep{ib17}. Neither article assigns the witness's policy to Kaufmyn or expressly treats safety as sufficient permission to resume development, so these passages establish no incompatible rule under the test in Appendix~\ref{app:logic}.
+
+\subsection{Permanent bans in stories about the movement's crisis}
+Some of the clearest reporting of permanent demands appeared in stories focused on internal crises or legal drama. \textit{The Atlantic}'s December 4 feature on Kirchner's disappearance articulated the demand for a permanent, worldwide ban on ASI development, distinguishing it from PauseAI, a separate movement seeking a conditional pause in advanced AI development \citep{atlantic}. \textit{The Standard}'s December 2 police follow-up also highlighted a permanent restriction on advanced AI creation \citep{standardpolice}, while the WSJ's July 2026 profile described a permanent global ASI ban and separately recalled Kirchner's call for permanence at an April 2025 conference \citep{wsj}. These examples show that coverage of a disruptive or threatening event does not automatically prevent a journalist from reporting a movement's prohibitions.
+
+When coverage shifts to internal movement dynamics, paying attention to speakers and timelines becomes essential. As the movement's messaging evolved, reporters captured individual stances alongside the organizational platform. \textit{The Standard} illustrated this by quoting PauseAI leader Holly Elmore on Kirchner's increasingly ``abolitionist'' views, before interviewing Stop AI leader Matthew Hall about changing their messaging strategy \citep{standardprofile}. Other outlets captured this shifting landscape in different ways, as \textit{SFGATE} paired a shutdown demand with a reproduced participant statement; the \textit{Daily Beast} interviewed Kirchner regarding an onstage subpoena \citep{gateprofile,beast}. A February 2026 \textit{UnHerd} feature juxtaposed the permanent AGI and ASI ban with Kaufmyn's explanation of their broader communication strategy \citep{morgan}. These passages document individual positions and tactical choices during a period of organizational change, without establishing a single shift in the group's policy.
+
+Fortune's April 2026 account followed an alleged attack on Sam Altman's home, which brought renewed scrutiny of anti-AI activism despite both Stop AI and PauseAI condemning violence and denying that the suspect belonged to their groups \citep{goldman}. The article discussed the organizations separately, but its Stop AI passages identified protest targets without stating a restriction, so the conditional pause attributed to PauseAI does not count as Stop AI's policy.
+
+\section{Discussion}
+Our analysis of the February blockade shows how much can remain unclear after a report names the proposed intervention. A reader who encounters a ``prohibition'' still needs to know its duration to distinguish a permanent ban from a temporary pause. Comparing articles on the same event makes these discrepancies visible, without requiring us to assume that the event itself changed or that journalists intended to suppress the movement's platform.
+
+Courtroom coverage raises a further question about whose authority supports an interpretation of the verdict. A reader encounters different grounds for trust when an account quotes a prosecutor's claim, relays a supporter's opinion, or presents a reporter's narrative summary. The campaign itself had framed the trial as a public referendum on AI danger, a narrative promoted during the November 2025 subpoena coverage \citep{subpoena,krans}. Thus, reporting that links the conviction to a rejection of AI risk repeats a framing the movement's publicity had advanced, although the available texts do not establish how that framing reached reporters.
+
+\subsection{What the M25 comparison can verify}
+\label{sec:m25}
+The M25 climate-protest trial offers a comparative baseline for checking procedural claims against official judicial records, within a setting where climate activism has also attracted research on changing news frames \citep{cappelli}. On July 11, 2024, five Just Stop Oil defendants were found guilty of conspiring to cause a public nuisance through planned motorway blockades in November 2022. The subsequent appeal judgment quotes Judge Christopher Hehir's ruling that the defendants' proposed rights-based defense was unavailable to the jury \citep[paras.~52--55]{hallam}, while his sentencing remarks describe climate facts admitted as context \citep[paras.~39--40]{hehirremarks}. These records establish who controlled the availability of the proposed defense, providing a basis for checking the procedural accounts in news reports.
+
+\begin{table}[!htbp]
+\centering\small
+\begin{tabularx}{\textwidth}{P{0.20\linewidth} P{0.19\linewidth} Y}
+\toprule Report & Jury merits rejection & Description of the decision\\\midrule
+Morning Star, July 11 & Absent & Reporter assigns climate-relevance ruling to jury.\\
+Guardian, July 11 & Absent & Identifies judge's restriction.\\
+Guardian, July 12 & Absent & Identifies judge's restriction.\\
+Reuters, July 18 & Absent & Mentions judge's evidential rulings.\\
+BBC, July 18 & Absent & Quotes a critic on the constraint on explaining motives.\\
+Sky News, July 18 & Absent & Reports verdict and judge's sentencing criticism.\\
+\bottomrule
+\end{tabularx}
+\caption{Six assessed M25 accounts of one trial. Rejection of the climate justification on its merits and assignment of a procedural ruling are separate codes.}
+\label{tab:m25}
+\end{table}
+
+When we applied our tracking method to the M25 coverage, none of the six accounts asserted that the jurors rejected the climate justification on its merits \citep{gayleverdict,gaylefeature,tobin,bbc,sky,morningstar}. The two \textit{Guardian} reports identified the judge as the source of the restriction, giving readers procedural information absent from the six Kaufmyn accounts. Morning Star, however, joined its account of the jury's guilty verdicts to the phrase ``ruling that the climate crisis was `irrelevant','' assigning the relevance decision to the jury in the reporter's narration \citep{morningstar}. This is a transfer of a procedural ruling from judge to jury, which the decision-attribution code captures even though the article makes no separate claim about rejection of the climate argument on its merits.
+
+The timing of the records limits what this comparison can explain about reporting. Hehir's sentencing remarks date from July 18, 2024, and the appeal judgment from March 7, 2025, after the Guardian articles' July 11 and July 12 datelines. The retrieved Guardian pages also display April 2025 updates, and their first editions were not recovered. Later judicial documents let us check the accounts we read, but cannot establish when reporters acquired the information or whether those documents shaped the wording. The comparison therefore tests the possibility of verification, without attributing the reports' procedural accuracy to access to a later ruling.
+
+\subsection{A defense placed before the jury}
+\label{sec:colston}
+The Colston statue removal trial shows a different limitation of general verdicts. In January 2022, four defendants were acquitted of criminal damage for toppling the statue of Edward Colston. Unlike the M25 trial, the trial judge allowed jurors to consider a rights-proportionality question, but only as the final step in the route to verdict after rejecting the other defenses \citep[paras.~14--15]{colston}. Because several defenses could lead to acquittal, the Court of Appeal described it as impossible to know which basis the jury adopted \citep[para.~2]{colston}. The court also held that the toppling was violent and the damage significant, so proportionality should not have been left to the jury, while making clear that the reference could not affect the acquittals \citep[paras.~2, 123]{colston}. The record therefore distinguishes the question the trial judge submitted, the appellate court's assessment of that decision, and the still-unknown grounds on which the jury acquitted.
+
+\FloatBarrier
+\subsection{Limits of the evidence}
+Our findings are shaped by the scale of the Stop AI movement and the targeted nature of our data collection. Because we are examining repeated coverage of a single, relatively small campaign, a large portion of our event reports trace back to the same few incidents, including the February blockade and the interconnected string of December arrests and November subpoena publicity. Many of these texts share underlying reporting, such as when the \textit{Daily Beast} reused \textit{SFGATE}'s confirmation alongside a new interview, meaning our text count does not represent independent journalistic investigations.
+
+Our dataset is a targeted collection rather than an exhaustive census of all published news. For instance, our secondary search uncovered eligible articles missed during the initial sweep, and some outlets like \textit{Politico} remained inaccessible. We also faced temporal limitations, in that while we have organizer materials for the October 2024 action, we could not recover contemporaneous event-window news for it, and some of the articles we did retrieve were updated versions that overwrote their original publication text, limiting our analysis to the versions we could access.
+
+The comparison also crosses US necessity doctrine and English rights-based defenses, while England and Wales restricts disclosure and solicitation of jury deliberations under section 20D of the Juries Act 1974 and associated court-reporting guidance \citep{juriesact,reportguide}. These differences in law and reporting conditions prevent treating the contrast as a national media effect. The targeted cases and the combination of author verification with separately identified model-assisted source checks also limit the study's reach, without supporting an estimate of how often these patterns occur across protest trials.
+
+We do not measure how the public interprets these news reports or whether the coverage influences technology policy. Our contribution concerns the mechanics of media attribution, showing which parts of a movement's demands a report explains and whose account supplies the meaning attached to a legal outcome.
+
+\section{Conclusion}
+The Stop AI case shows that reporting an intervention often leaves its duration unclear, with nineteen of twenty-four texts naming a restriction and only nine of those nineteen stating permanence. Coverage of the February blockade also shows how explaining one demand can leave another unanswered. In the trial coverage, five of six reports carried a rejection interpretation drawn from three sources, while none mentioned the movement's claim that the judge withheld a necessity instruction. Dated movement statements and judicial records make these accounts open to comparison, but they answer different questions. The movement's statements establish what a named actor requested at a given time, while the M25 and Colston records show which questions a judge placed before the jury and whether an appellate court accepted that decision. Keeping those distinctions visible lets readers assess the reported demand and the verdict without mistaking an attributed interpretation for the jury's own explanation.
+
+\begin{thebibliography}{99}
+\setlength{\itemsep}{0.25em}
+\interlinepenalty=10000
+
+\bibitem[Allen(2025)]{allen} Allen, Derek. 2025. ``Stop AI Protest at OpenAI.'' \emph{Indybay}, August 10. appended comment August 20. \href{https://www.indybay.org/newsitems/2025/08/10/18878808.php}{\nolinkurl{www.indybay.org/newsitems/2025/08/10/18878808.php}}.
+\bibitem[Amenta et al.(2024)]{amenta} Amenta, Edwin, Neal Caren, and Weijun Yuan. 2024. ``Beyond the Protest Paradigm.  Four Types of News Coverage and America's Most Prominent Social Movement Organizations.'' \emph{Sociological Forum} 39(3), 296--309. \href{https://doi.org/10.1111/socf.13006}{\nolinkurl{doi.org/10.1111/socf.13006}}.
+\bibitem[Associated Press(2024)]{ap} Associated Press. 2024. ``Climate Protesters Spray Orange Paint over Stonehenge.'' June 19. \href{https://apnews.com/article/stonehenge-vandalism-paint-climate-protest-summer-solstice-34d7591e858c904a1569ce415a8ad10b}{\nolinkurl{apnews.com/article/stonehenge-vandalism-paint-climate-protest-summer-solstice-34d7591e858c904a1569ce415a8ad10b}}.
+\bibitem[Booth(2026)]{guardian} Booth, Robert. 2026. ``The first anti-AI protester to be jailed has a message for OpenAI, Anthropic and Meta: `Regain your humanity'.'' \emph{The Guardian}, August 16. \href{https://www.theguardian.com/us-news/2026/aug/16/california-openai-protester-wynd-kaufman}{\nolinkurl{www.theguardian.com/us-news/2026/aug/16/california-openai-protester-wynd-kaufman}}.
+\bibitem[Boyle et al.(2012)]{boyle} Boyle, Michael P., Douglas M. McLeod, and Cory L. Armstrong. 2012. ``Adherence to the Protest Paradigm.  The Influence of Protest Goals and Tactics on News Coverage in U.S. and International Newspapers.'' \emph{The International Journal of Press/Politics} 17(2), 127--144. \href{https://doi.org/10.1177/1940161211433837}{\nolinkurl{doi.org/10.1177/1940161211433837}}.
+\bibitem[Cappelli(2025)]{cappelli} Cappelli, Gloria. 2025. ``From Protest to Criminal Disruption.  A Diachronic Investigation into the Framing of Climate Activism in the UK.'' \emph{Iperstoria} 26. \href{https://doi.org/10.13136/2281-4582/2025.i26.1666}{\nolinkurl{doi.org/10.13136/2281-4582/2025.i26.1666}}.
+\bibitem[Caren et al.(2026)]{caren} Caren, Neal, Braxton Brewington, and Marty Kennedy. 2026. ``Insert Quote Here.  Selective Modulation in Protest Coverage.'' \emph{Social Problems}, spag066. Published online September 17. \href{https://doi.org/10.1093/socpro/spag066}{\nolinkurl{doi.org/10.1093/socpro/spag066}}.
+\bibitem[Claburn(2025)]{claburn} Claburn, Thomas. 2025. ``We Meet the Protesters Who Want to Ban Artificial General Intelligence before It Even Exists.'' \emph{The Register}, February 19. \href{https://www.theregister.com/software/2025/02/19/ai-activists-seek-ban-on-artificial-general-intelligence/469903}{\nolinkurl{www.theregister.com/software/2025/02/19/ai-activists-seek-ban-on-artificial-general-intelligence/469903}}.
+\bibitem[Council(2025)]{gateprofile} Council, Stephen. 2025. ``Bay Area tech activist's dramatic disappearance leads to grueling hunt.'' \emph{SFGATE}, December 9. \href{https://www.sfgate.com/tech/article/sam-kirchner-disappearance-grueling-search-21233692.php}{\nolinkurl{www.sfgate.com/tech/article/sam-kirchner-disappearance-grueling-search-21233692.php}}.
+\bibitem[Court of Appeal(2022)]{colston} Court of Appeal of England and Wales. 2022. \emph{Attorney General's Reference No. 1 of 2022}, [2022] EWCA Crim 1259, September 28. \href{https://www.judiciary.uk/wp-content/uploads/2022/09/AG-Ref-No-1-of-2022-Final-Judgment.pdf}{\nolinkurl{judiciary.uk/wp-content/uploads/2022/09/AG-Ref-No-1-of-2022-Final-Judgment.pdf}}.
+\bibitem[Court of Appeal(2025)]{hallam} Court of Appeal of England and Wales. 2025. \emph{R v Hallam and Others}. [2025] EWCA Crim 199. March 7. \href{https://www.judiciary.uk/wp-content/uploads/2025/03/R-v-Hallam-and-Others-Judgment.pdf}{\nolinkurl{www.judiciary.uk/wp-content/uploads/2025/03/R-v-Hallam-and-Others-Judgment.pdf}}.
+\bibitem[Elinson(2026)]{wsj} Elinson, Zusha. 2026. ``The Hard-Line Activists Ramping Up for the War With AI.'' \emph{The Wall Street Journal}, July 11. \href{https://www.wsj.com/tech/ai/anti-ai-activists-disappearance-sam-kirchner-6872879f}{\nolinkurl{www.wsj.com/tech/ai/anti-ai-activists-disappearance-sam-kirchner-6872879f}}. Public archive copy. \href{https://archive.ph/h0G53}{\nolinkurl{archive.ph/h0G53}}.
+\bibitem[Felicity(2026)]{ib18} Felicity, Thea. 2026. ```Regain Your Humanity': First Person Jailed for Anti-AI Protest Says She's `Sounding the Alarm' on AI CEOs.'' \emph{IBTimes UK}, August 18. \href{https://www.ibtimes.co.uk/first-protester-jailed-anti-ai-demonstration-openai-1814874}{\nolinkurl{www.ibtimes.co.uk/first-protester-jailed-anti-ai-demonstration-openai-1814874}}.
+\bibitem[Future of Life Institute(n.d.a)]{fli} Future of Life Institute. n.d.a. ``Statement on Superintelligence.'' Current text. \href{https://superintelligence-statement.org/}{\nolinkurl{superintelligence-statement.org/}}.
+\bibitem[Future of Life Institute(n.d.b)]{fliindexes} Future of Life Institute. n.d.b. Open-letter and project indexes, entries for the Statement on Superintelligence. Conflicting displayed dates retained. \href{https://futureoflife.org/open-letter/}{\nolinkurl{futureoflife.org/open-letter/}}. \href{https://futureoflife.org/project/}{\nolinkurl{futureoflife.org/project/}}.
+\bibitem[Gayle(2024a)]{gayleverdict} Gayle, Damien. 2024a. ``Just Stop Oil activists found guilty of conspiring to block M25 traffic.'' \emph{The Guardian}, July 11. \href{https://www.theguardian.com/uk-news/article/2024/jul/11/just-stop-oil-activists-found-guilty-of-conspiring-to-block-m25-traffic}{\nolinkurl{www.theguardian.com/uk-news/article/2024/jul/11/just-stop-oil-activists-found-guilty-of-conspiring-to-block-m25-traffic}}.
+\bibitem[Gayle(2024b)]{gaylefeature} Gayle, Damien. 2024b. ``Contempt, gagging and UN intervention: inside the UK's wildest climate trial.'' \emph{The Guardian}, July 12. \href{https://www.theguardian.com/environment/article/2024/jul/12/contempt-gagging-un-intervention-uk-wildest-climate-trial-just-stop-oil}{\nolinkurl{www.theguardian.com/environment/article/2024/jul/12/contempt-gagging-un-intervention-uk-wildest-climate-trial-just-stop-oil}}.
+\bibitem[Goldman(2026)]{goldman} Goldman, Sharon. 2026. ``Pause AI and Stop AI: Meet the anti-AI groups facing questions after the attack on Sam Altman.'' \emph{Fortune}, April 15. \href{https://fortune.com/2026/04/15/pause-ai-and-stop-ai-meet-the-anti-ai-groups-facing-questions-after-the-attack-on-sam-altman/}{\nolinkurl{fortune.com/2026/04/15/pause-ai-and-stop-ai-meet-the-anti-ai-groups-facing-questions-after-the-attack-on-sam-altman/}}.
+\bibitem[Green(2022)]{green} Green, Ben. 2022. ``The Flaws of Policies Requiring Human Oversight of Government Algorithms.'' \emph{Computer Law \& Security Review} 45, 105681. \href{https://doi.org/10.1016/j.clsr.2022.105681}{\nolinkurl{doi.org/10.1016/j.clsr.2022.105681}}.
+\bibitem[Haines(1984)]{haines} Haines, Herbert H. 1984. ``Black Radicalization and the Funding of Civil Rights.  1957--1970.'' \emph{Social Problems} 32(1), 31--43. \href{https://doi.org/10.2307/800260}{\nolinkurl{doi.org/10.2307/800260}}.
+\bibitem[Harvard Law School(2023)]{harvard} Harvard Law School Animal Law \& Policy Program. 2023. ``Harvard Law Professor Submits Brief Declaring Necessity Defense Applies to the Rescue of Animals.'' Media release, August 31. \href{https://animal.law.harvard.edu/news-article/the-rescue-of-animals/}{\nolinkurl{animal.law.harvard.edu/news-article/the-rescue-of-animals/}}.
+\bibitem[Hayes(2026)]{hayes} Hayes, Cydney. 2026. ``Stop AI Protestor Sentenced to Jail, Hopes to Reconnect with Rafael Mandelman.'' \emph{Gazetteer SF}, June 22. \href{https://sf.gazetteer.co/stop-ai-protestor-sentenced-to-jail-hopes-to-reconnect-with-rafael-mandelman}{\nolinkurl{sf.gazetteer.co/stop-ai-protestor-sentenced-to-jail-hopes-to-reconnect-with-rafael-mandelman}}.
+\bibitem[Hehir(2024)]{hehirremarks} Hehir, Christopher. 2024. \emph{Rex v Hallam and Others}. Sentencing remarks, July 18. \href{https://www.judiciary.uk/wp-content/uploads/2024/07/R-v-Hallam-and-others.pdf}{\nolinkurl{www.judiciary.uk/wp-content/uploads/2024/07/R-v-Hallam-and-others.pdf}}.
+\bibitem[Hepp(2026)]{hepp} Hepp, Andreas. 2026. ``The Imaginative Landscape of AI.  Locating Silicon Valley's `Quiet Futuring'.'' \emph{Media, Culture \& Society}. Published online May 22. \href{https://doi.org/10.1177/01634437261454515}{\nolinkurl{doi.org/10.1177/01634437261454515}}.
+\bibitem[Ho(2025)]{ho} Ho, Catherine. 2025. ``Three Arrested in S.F. after Protesting AI Technology outside OpenAI Headquarters.'' \emph{San Francisco Chronicle}, February 22. Updated the same day. \href{https://www.sfchronicle.com/bayarea/article/three-arrested-s-f-protesting-ai-technology-20181600.php}{\nolinkurl{www.sfchronicle.com/bayarea/article/three-arrested-s-f-protesting-ai-technology-20181600.php}}.
+\bibitem[Jaen(2026)]{ib17} Jaen, Regyl. 2026. ``69-Year-Old AI Protester Jailed After Blocking OpenAI HQ: Supporters Call Her the `Rosa Parks of AI'.'' \emph{IBTimes UK}, August 17. \href{https://www.ibtimes.co.uk/retired-teacher-jailed-anti-ai-protest-openai-1814518}{\nolinkurl{www.ibtimes.co.uk/retired-teacher-jailed-anti-ai-protest-openai-1814518}}.
+\bibitem[Jim\'enez-Mart\'inez et al.(2025)]{chile} Jim\'enez-Mart\'inez, C\'esar, Ximena Orchard, and Nadia Herrada. 2025. ``Rethinking the Protest Paradigm. Media Kettling in the Television Coverage of the 2019 Chilean Uprising.'' \emph{International Journal of Communication} 19, 240--260. \href{https://ijoc.org/index.php/ijoc/article/viewFile/23135/4883}{\nolinkurl{ijoc.org/index.php/ijoc/article/viewFile/23135/4883}}.
+\bibitem[Just Stop Oil(2024a)]{jsostone} Just Stop Oil. 2024a. ``It's Time for Megalithic Action! Just Stop Oil Decorate Stonehenge.'' June 19. \href{https://juststopoil.org/2024/06/19/its-time-for-megalithic-action-just-stop-oil-decorate-stonehenge/}{\nolinkurl{juststopoil.org/2024/06/19/its-time-for-megalithic-action-just-stop-oil-decorate-stonehenge/}}.
+\bibitem[Just Stop Oil(2024b)]{jsoverdict} Just Stop Oil. 2024b. ``5 Just Stop Oil Supporters Found Guilty as UN Slams Trial.'' July 11. \href{https://juststopoil.org/2024/07/11/5-just-stop-oil-supporters-found-guilty-as-un-slams-trial/}{\nolinkurl{juststopoil.org/2024/07/11/5-just-stop-oil-supporters-found-guilty-as-un-slams-trial/}}.
+\bibitem[Katell et al.(2020)]{katell} Katell, Michael, et al. 2020. ``Toward Situated Interventions for Algorithmic Equity. Lessons from the Field.'' \emph{Proceedings of the Conference on Fairness, Accountability, and Transparency}, 45--55. \href{https://doi.org/10.1145/3351095.3372874}{\nolinkurl{doi.org/10.1145/3351095.3372874}}.
+\bibitem[Krans(2025)]{krans} Krans, Brian. 2025. ``OpenAI Critic Arrested for SF Protest Ahead of Activist Group's Criminal Trial.'' \emph{KQED}, December 5. \href{https://www.kqed.org/news/12066171/openai-critic-arrested-for-sf-protest-ahead-of-activist-groups-criminal-trial}{\nolinkurl{www.kqed.org/news/12066171/openai-critic-arrested-for-sf-protest-ahead-of-activist-groups-criminal-trial}}.
+\bibitem[KTVU Staff(2025)]{ktvu} KTVU Staff. 2025. ```Stop AI' Organization Protest outside OpenAI Headquarters.'' \emph{KTVU FOX 2}, February 22. \href{https://www.ktvu.com/news/stop-ai-organization-protest-outside-openai-headquarters}{\nolinkurl{www.ktvu.com/news/stop-ai-organization-protest-outside-openai-headquarters}}.
+\bibitem[Kyriakidou and Olivas Osuna(2017)]{indignados} Kyriakidou, Maria, and Jose Javier Olivas Osuna. 2017. ``The Indignados Protests in the Spanish and Greek Press. Moving beyond the Protest Paradigm?'' \emph{European Journal of Communication} 32(5), 457--472. \href{https://doi.org/10.1177/0267323117720342}{\nolinkurl{doi.org/10.1177/0267323117720342}}.
+\bibitem[Larson(2026)]{kron} Larson, Amy. 2026. ``SF jury convicts protester who blocked OpenAI headquarters.'' \emph{KRON4, AOL republication}, June 9. \href{https://www.aol.com/articles/sf-jury-convicts-protester-blocked-201531000.html}{\nolinkurl{www.aol.com/articles/sf-jury-convicts-protester-blocked-201531000.html}}.
+\bibitem[Li and Talerico(2026)]{courthouse} Li, Roland, and Kate Talerico. 2026. ``Elon Musk vs. OpenAI Trial Attracts Media and Anti-AI Protests to Oakland.'' \emph{San Francisco Chronicle}, April 27. \href{https://www.sfchronicle.com/tech/article/elon-musk-openai-trial-22228584.php}{\nolinkurl{www.sfchronicle.com/tech/article/elon-musk-openai-trial-22228584.php}}.
+\bibitem[Long and Hamilton(2018)]{long} Long, Lance N., and Ted Hamilton. 2018. ``The Climate Necessity Defense. Proof and Judicial Error in Climate Protest Cases.'' \emph{Stanford Environmental Law Journal} 38, 57--115. \href{https://law.stanford.edu/wp-content/uploads/2019/02/K_Long.pdf}{\nolinkurl{law.stanford.edu/wp-content/uploads/2019/02/K_Long.pdf}}.
+\bibitem[Lynch and Dekeyser(2026)]{lynch} Lynch, Casey R., and Thomas Dekeyser. 2026. ``AI Refusal.  A Cultural Politics.'' Special-issue introduction. \emph{cultural geographies}. Published online April 26. \href{https://doi.org/10.1177/14744740261443641}{\nolinkurl{doi.org/10.1177/14744740261443641}}.
+\bibitem[Mansouri and Bailey(2025)]{mansouri} Mansouri, Masoumeh Iran, and David J. Bailey. 2025. ``How to Be `Anti-AI' in the 21st Century.  Overcoming the Inevitability Narrative.'' Debate contribution. \emph{Global Political Economy} 4(2), 185--194. \href{https://doi.org/10.1332/26352257Y2025D000000030}{\nolinkurl{doi.org/10.1332/26352257Y2025D000000030}}.
+\bibitem[Matrice Jacobine(2025)]{mirror} Matrice Jacobine. 2025. ``OpenAI Locks Down San Francisco Offices Following Alleged Threat From Activist.'' Linkpost and reproduced organizational statements. \emph{LessWrong}, November 22. \href{https://www.lesswrong.com/posts/5SAn6HbeQxHatCGTd/openai-locks-down-san-francisco-offices-following-alleged}{\nolinkurl{www.lesswrong.com/posts/5SAn6HbeQxHatCGTd/openai-locks-down-san-francisco-offices-following-alleged}}.
+\bibitem[Morgan(2026)]{morgan} Morgan, Farahn. 2026. ``Inside the AI Resistance.'' \emph{UnHerd}, February 23. Date from publisher metadata. \href{https://unherd.com/2026/02/inside-the-ai-resistance/}{\nolinkurl{unherd.com/2026/02/inside-the-ai-resistance/}}.
+\bibitem[Morning Star(2024)]{morningstar} Morning Star. 2024. ``Just Stop Oil activists found guilty over M25 disruption plans.'' July 11. \href{https://www.morningstaronline.co.uk/article/just-stop-oil-activists-found-guilty-over-m25-disruption-plans}{\nolinkurl{www.morningstaronline.co.uk/article/just-stop-oil-activists-found-guilty-over-m25-disruption-plans}}. Complete copy in Neil Harvey witness exhibit, pp.~31--32. \href{https://www.gatwickairport.com/on/demandware.static/-/Sites-Gatwick-Library/default/dwb3fd22f0/images/Corporate-PDFs/Injunction/2024.07.17-Neil-Harvey-Witness-Exhibit-Bundle-Part-1.pdf}{\nolinkurl{gatwickairport.com}}.
+\bibitem[Nguyen(2023)]{nguyen} Nguyen, Dennis. 2023. ``How News Media Frame Data Risks in Their Coverage of Big Data and AI.'' \emph{Internet Policy Review} 12(2). \href{https://policyreview.info/articles/analysis/how-news-media-frame-data-risks-big-data-and-ai}{\nolinkurl{policyreview.info/articles/analysis/how-news-media-frame-data-risks-big-data-and-ai}}.
+\bibitem[PauseAI(2024)]{pauseevent} PauseAI. 2024. ``International PauseAI Protest May 13th 2024.'' Current event page. displayed update May 14. \href{https://pauseai.info/2024-may}{\nolinkurl{pauseai.info/2024-may}}.
+\bibitem[PauseAI(2026)]{pauseproposal} PauseAI. 2026. ``PauseAI Proposal.'' Stated version April 5. \href{https://pauseai.org/proposal}{\nolinkurl{pauseai.org/proposal}}.
+\bibitem[Remmelt(2024)]{october} Remmelt. 2024. ``Why Stop AI Is Barricading OpenAI.'' \emph{Effective Altruism Forum}, October 14. \href{https://forum.effectivealtruism.org/posts/nDLaCPpZTwK7o2vW9/why-stop-ai-is-barricading-openai}{\nolinkurl{forum.effectivealtruism.org/posts/nDLaCPpZTwK7o2vW9/why-stop-ai-is-barricading-openai}}.
+\bibitem[Rodriguez(2024)]{rodriguez} Rodriguez, Joe Fitzgerald. 2024. ``As OpenAI Unveils Big Update, Protesters Call for Pause in Risky `Frontier' Tech.'' \emph{KQED}, May 13. displayed update October 15. \href{https://www.kqed.org/news/11985949/as-openai-unveils-big-update-protesters-call-for-pause-in-risky-frontier-tech}{\nolinkurl{www.kqed.org/news/11985949/as-openai-unveils-big-update-protesters-call-for-pause-in-risky-frontier-tech}}.
+\bibitem[San Francisco District Attorney(2026)]{da} San Francisco District Attorney. 2026. ``Jury Convicts Woman of Trespassing and Interfering with Business after Chaining Doors and Refusing to Move during Protest.'' June 9. \href{https://sfdistrictattorney.org/jury-convicts-woman-of-trespassing-and-interfering-with-business-after-chaining-doors-and-refusing-to-move-during-protest/}{\nolinkurl{sfdistrictattorney.org/jury-convicts-woman-of-trespassing-and-interfering-with-business-after-chaining-doors-and-refusing-to-move-during-protest/}}.
+\bibitem[San Francisco State University(n.d.)]{xpressabout} San Francisco State University, Department of Journalism. n.d. ``Student Publications.'' Golden Gate Xpress. \href{https://journalism.sfsu.edu/student-publications}{\nolinkurl{journalism.sfsu.edu/student-publications}}.
+\bibitem[San Francisco Superior Court(2024)]{courtaccess} San Francisco Superior Court. 2024. ``Criminal Case Information Portal Available on the Court's Website.'' May 6. \href{https://sf.courts.ca.gov/system/files/news/criminal-portal-announcement.pdf}{\nolinkurl{sf.courts.ca.gov/system/files/news/criminal-portal-announcement.pdf}}.
+\bibitem[Schiffer et al.(2025)]{wired} Schiffer, Zo\"e, Maxwell Zeff, and Paresh Dave. 2025. ``OpenAI Locks Down San Francisco Offices Following Alleged Threat From Activist.'' \emph{WIRED}, November 21. displayed update November 22. \href{https://www.wired.com/story/openai-office-lockdown-threat-san-francisco/}{\nolinkurl{www.wired.com/story/openai-office-lockdown-threat-san-francisco/}}.
+\bibitem[Shugerman and Lamb(2025)]{standardpolice} Shugerman, Emily, and Jonah Owen Lamb. 2025. ``Cops still searching for `volatile' activist whose death threats shut down OpenAI office.'' \emph{The San Francisco Standard}, December 2. \href{https://sfstandard.com/2025/12/02/openai-protester-shut-down-stop-ai-sam-kirchner/}{\nolinkurl{sfstandard.com/2025/12/02/openai-protester-shut-down-stop-ai-sam-kirchner/}}.
+\bibitem[Shugerman(2025)]{standardprofile} Shugerman, Emily. 2025. ``Can You Fight the AI Apocalypse without Losing Your Mind?'' \emph{The San Francisco Standard}, December 11. \href{https://sfstandard.com/2025/12/11/sam-kirchner-stop-ai-missing-protest/}{\nolinkurl{sfstandard.com/2025/12/11/sam-kirchner-stop-ai-missing-protest/}}.
+\bibitem[Shugerman(2026)]{shugerman} Shugerman, Emily. 2026. ```I'm not the one that should be in jail': OpenAI protester, 69, turns herself in.'' \emph{The San Francisco Standard}, August 14. \href{https://sfstandard.com/2026/08/14/69-s-first-person-jailed-protesting-ai-has-regrets/}{\nolinkurl{sfstandard.com/2026/08/14/69-s-first-person-jailed-protesting-ai-has-regrets/}}.
+\bibitem[Simon and Council(2025)]{subpoena} Simon, Alex, and Stephen Council. 2025. ``Sam Altman apparently subpoenaed moments into SF talk with Steve Kerr.'' \emph{SFGATE}, November 3. \href{https://www.sfgate.com/tech/article/openai-sam-altman-subpeona-steve-kerr-sf-talk-21137132.php}{\nolinkurl{www.sfgate.com/tech/article/openai-sam-altman-subpeona-steve-kerr-sf-talk-21137132.php}}.
+\bibitem[Singh(2025)]{singh} Singh, Paul. 2025. ``Protesters Gather against OpenAI, Show Support for Suchir Balaji.'' \emph{Golden Gate Xpress}, February 23. \href{https://goldengatexpress.org/110355/news/beyondthebay/citysanfrancisco/protesters-gather-against-openai-show-support-for-suchir-balaji/}{\nolinkurl{goldengatexpress.org/110355/news/beyondthebay/citysanfrancisco/protesters-gather-against-openai-show-support-for-suchir-balaji/}}.
+\bibitem[Sky News(2024)]{sky} Sky News. 2024. ``Five `Fanatic' Just Stop Oil Protesters Jailed for Plot to Block M25.'' July 18. \href{https://news.sky.com/story/five-fanatic-just-stop-oil-protesters-jailed-for-plot-to-block-m25-13179407}{\nolinkurl{news.sky.com/story/five-fanatic-just-stop-oil-protesters-jailed-for-plot-to-block-m25-13179407}}.
+\bibitem[Smith et al.(2001)]{smith} Smith, Jackie, John D. McCarthy, Clark McPhail, and Boguslaw Augustyn. 2001. ``From Protest to Agenda Building.  Description Bias in Media Coverage of Protest Events in Washington, D.C.'' \emph{Social Forces} 79(4), 1397--1423. \href{https://doi.org/10.1353/sof.2001.0053}{\nolinkurl{doi.org/10.1353/sof.2001.0053}}.
+\bibitem[Stop AI(2025a)]{stopproposal} Stop AI. 2025a. ``Stop AI Proposal.'' Historical version captured February 1, 11h07m52s UTC. \href{https://web.archive.org/web/20250201110752id_/https://docs.google.com/document/d/1IgTaTMTZuY3kRLZ5JDFhwqQLATWVVGLOHVulbBY5O6g/edit}{\nolinkurl{web.archive.org/web/20250201110752id_/docs.google.com/document/d/1IgTaTMTZuY3kRLZ5JDFhwqQLATWVVGLOHVulbBY5O6g/edit}}.
+\bibitem[Stop AI(2025b)]{stoprelease} Stop AI. 2025b. ``2/22/25 Stop AI / Justice For Suchir Protest Press Release.'' Current text. displayed release date February 11. historical revision not authenticated. \href{https://docs.google.com/document/d/1wrZteh9csu1IudWh2OANYWVFUYWnY5HW9iISBdVgdnw/edit}{\nolinkurl{docs.google.com/document/d/1wrZteh9csu1IudWh2OANYWVFUYWnY5HW9iISBdVgdnw/edit}}.
+\bibitem[Stop AI(2026)]{stoptrial} Stop AI. 2026. ``Trial of Wynd Kaufmyn.'' Movement account with June updates. retrieved historical captures June 29 and August 4. \href{https://web.archive.org/web/20260629155753id_/https://www.stopai.info/trial}{\nolinkurl{web.archive.org/web/20260629155753id_/www.stopai.info/trial}}. \href{https://web.archive.org/web/20260804065600id_/https://www.stopai.info/trial}{\nolinkurl{web.archive.org/web/20260804065600id_/www.stopai.info/trial}}. Current page.  \href{https://www.stopai.info/trial}{\nolinkurl{www.stopai.info/trial}}.
+\bibitem[Stop AI(n.d.a)]{stopabout} Stop AI. n.d.a. ``About Us.'' Current platform. \href{https://www.stopai.info/about}{\nolinkurl{www.stopai.info/about}}.
+\bibitem[Stop AI(n.d.b)]{stophistory} Stop AI. n.d.b. ``History of STOP AI.'' Current retrospective index. \href{https://www.stopai.info/history}{\nolinkurl{www.stopai.info/history}}.
+\bibitem[Stop AI(n.d.c)]{stopstatement} Stop AI. n.d.c. Organizational response concerning November 2025. Current wording. \href{https://www.stopai.info/statement}{\nolinkurl{www.stopai.info/statement}}.
+\bibitem[Symonds(2024)]{bbc} Symonds, Tom. 2024. ``Just Stop Oil Protesters Jailed after M25 Blocked.'' \emph{BBC News}, July 18. \href{https://www.bbc.com/news/articles/c880xjx54mpo}{\nolinkurl{www.bbc.com/news/articles/c880xjx54mpo}}.
+\bibitem[Tiffany(2025)]{atlantic} Tiffany, Kaitlyn. 2025. ``The Strange Disappearance of an Anti-AI Activist.'' \emph{The Atlantic}, December 4. \href{https://www.theatlantic.com/technology/2025/12/sam-kirchner-missing-stop-ai/685144/}{\nolinkurl{www.theatlantic.com/technology/2025/12/sam-kirchner-missing-stop-ai/685144/}}.
+\bibitem[Tobin(2024)]{tobin} Tobin, Sam. 2024. ``Five UK Climate Protesters Jailed for Conspiracy to Block Major Road.'' \emph{Reuters}, July 18. accessible republication at London South East. \href{https://www.lse.co.uk/news/five-uk-climate-protesters-jailed-for-conspiracy-to-block-major-road-kct3epyao665j3v.html}{\nolinkurl{www.lse.co.uk/news/five-uk-climate-protesters-jailed-for-conspiracy-to-block-major-road-kct3epyao665j3v.html}}.
+\bibitem[Umamaheswar(2020)]{umamaheswar} Umamaheswar, Janani. 2020. ``Policing and Racial (In)Justice in the Media. Newspaper Portrayals of the Black Lives Matter Movement.'' \emph{Civic Sociology} 1(1), 12143. \href{https://doi.org/10.1525/001c.12143}{\nolinkurl{doi.org/10.1525/001c.12143}}.
+\bibitem[Verbalaitis(2025)]{beast} Verbalaitis, Vic. 2025. ``Billionaire AI Overlord Ambushed Onstage.'' \emph{The Daily Beast}, November 7. \href{https://www.thedailybeast.com/billionaire-ai-overlord-sam-altman-ambushed-onstage/}{\nolinkurl{www.thedailybeast.com/billionaire-ai-overlord-sam-altman-ambushed-onstage/}}.
+\bibitem[Wang(2025)]{wang} Wang, Victor Zhenyi. 2025. ``Why Bay Area Group Stop AI Thinks Artificial Intelligence Will Kill Us All.'' \emph{Bay Area Current}, September 22. \href{https://bayareacurrent.com/why-bay-area-group-stop-ai-thinks-artificial-intelligence-will-kill-us-all/}{\nolinkurl{bayareacurrent.com/why-bay-area-group-stop-ai-thinks-artificial-intelligence-will-kill-us-all/}}.
+\bibitem[Wong(2025)]{wong} Wong, Matteo. 2025. ``Silicon Valley Braces for Chaos.'' \emph{The Atlantic}, May 13. \href{https://www.theatlantic.com/technology/archive/2025/05/silicon-valley-reacts-to-trump/682799/}{\nolinkurl{www.theatlantic.com/technology/archive/2025/05/silicon-valley-reacts-to-trump/682799/}}.
+
+\bibitem[United Kingdom Parliament(1974)]{juriesact} United Kingdom Parliament. 1974. \emph{Juries Act 1974}, section 20D, as amended. \href{https://www.legislation.gov.uk/ukpga/1974/23/section/20D}{\nolinkurl{legislation.gov.uk/ukpga/1974/23/section/20D}}.
+\bibitem[Judicial College(2023)]{reportguide} Judicial College. 2023. \emph{Reporting Restrictions in the Criminal Courts}, July, section 5.9. \href{https://www.judiciary.uk/wp-content/uploads/2023/07/Reporting-Restrictions-in-the-Criminal-Courts-July-2023.pdf}{\nolinkurl{judiciary.uk/wp-content/uploads/2023/07/Reporting-Restrictions-in-the-Criminal-Courts-July-2023.pdf}}.
+\end{thebibliography}
+\clearpage
+\appendix
+\section{Codebook}
+\label{app:codebook}
+The released coding tables record source timing, attribution, competing readings, and passage locations using the following rules.
+
+\begingroup\small
+\renewcommand{\arraystretch}{1.03}
+\begin{longtable}{P{0.17\textwidth}P{0.36\textwidth}P{0.38\textwidth}}
+\caption{Fields used to compare a demand with its representation}\\
+\toprule Field & Record & Decision rule\\\midrule
+\endfirsthead
+\toprule Field & Record & Decision rule\\\midrule
+\endhead
+\bottomrule\endfoot
+Source role & Organization, organizer, individual, coalition, reproduction, or legal issuer. & Membership alone does not make a remark an organizational statement.\\
+Technology and stage & Source terms and definitions. Record the restricted activity. & Keep AGI and ASI distinct. Do not infer training from deployment.\\
+Intervention & Action and duration. & Record permanence only when the text states it.\\
+Change conditions & Necessary or sufficient conditions. Identify any joint requirement. & A necessary condition alone grants no permission.\\
+Authority & Named body and its decision role. & Distinguish an enactor from an evaluator or authorizer. Public support does not establish a veto.\\
+Prominence & Heading, opening, featured quotation, later paragraph, or comment. & Check prominence before comparing which components appear in news.\\
+Version & Earlier recovered body, later capture, current text, conflict, or missing. & An archive index entry does not authenticate an unretrieved text.\\
+Actor label & Exact description, speaker, referent, and location. & A label does not determine policy content.\\
+Remedy wording & Verb, object, modifiers, and negation. & Read the whole proposition. Do not rank ban, halt, and pause without context.\\
+Retention & Preserved, omitted or ambiguous, explicitly changed, mixed, or unassessable. & Assess each dimension separately. An omission requires a source that states the missing requirement.\\
+Explicit substitution & Arrangement meeting Equation~\ref{eq:witness} or its reverse, passage locators, direction, and rival reading. & Missing detail alone does not establish a conflicting policy rule.\\
+Legal claim & Allegation, defense claim, opinion, prosecutor announcement, ruling, or news paraphrase. & Identify the issuer. A movement update does not establish a signed ruling.\\
+Rejection narrative & Explicit, implicit, absent, or unassessable. Record speaker, passage, and the argument said to be rejected. & Separate general action justification from necessity or climate claims. A verdict alone is insufficient.\\
+Decision attribution & Judge or jury assigned a relevance or defense ruling. & Code a transferred ruling separately from rejection on the merits.\\
+\end{longtable}
+\endgroup
+
+The policy indicator concerns current Stop AI or its current participants, with headline labels kept separate from the attributed restriction. Labels do not enter a frequency measure because their presence alone does not specify policy content.
+
+\clearpage
+\section{News-text audit}
+\label{app:news}
+\begin{longtable}{P{0.05\textwidth}P{0.20\textwidth}P{0.27\textwidth}P{0.36\textwidth}}
+\caption{Stop AI news texts and their comparison status}\\
+\toprule ID & Outlet and first date & Inclusion and benchmark & Observation\\\midrule
+\endfirsthead
+\toprule ID & Outlet and first date & Inclusion and benchmark & Observation\\\midrule
+\endhead
+\bottomrule\endfoot
+N01 & KTVU, Feb. 22, 2025 & Event report. Earlier generic platform. & Permanent AGI prohibition retained. Fuller provisions omitted.\\
+N02 & Xpress, Feb. 23, 2025 & Event report. Same platform. & Investigation demand selected. No AI remedy stated.\\
+N03 & WIRED, Nov. 21, 2025 & Event report with Nov. 22 update. Historical response unresolved. & Current organization quoted on nonviolence. Older predecessor remark remains separate.\\
+N04 & KQED, Dec. 5, 2025 & Arrest report. Prior same-actor statement not recovered. & Reichstadter ASI stop demand. Historical February remarks separately dated.\\
+N05 & Gazetteer, June 22, 2026 & Sentence report. Earlier generic platform, later trial captures. & Permanent ban with unqualified AI object. Counsel's dismissal account.\\
+N06 & Standard, Aug. 14, 2026 & Preview and interview. Earlier trial captures. & Reports Russell's testimony and links defense to conviction. ASI restriction lacks duration.\\
+N07 & Register, Feb. 19, 2025 & Preview. Earlier generic platform. & Restrictive demands in a longer account.\\
+N08 & Current, Sept. 22, 2025 & Profile. No principal event packet. & Specific ban and broader AI wording.\\
+N12 & KRON4, June 9, 2026 & Verdict report. AOL republication counted once. & Necessity attributed to movement. Prosecutor supplies a general rejection interpretation.\\
+N13 & IBTimes, Aug. 17, 2026 & Rewrite. Earlier trial captures. & Permanent ASI ban. Russell remains separate. Repeats prosecutor interpretation.\\
+N14 & IBTimes, Aug. 18, 2026 & Rewrite. Earlier trial captures. & Separate ban and safety prerequisite. Narration asserts rejection.\\
+N15 & Guardian, Aug. 16, 2026 & Surrender report. Earlier captures. & Reports surrender and quoted rejection.\\
+N16 & SFGATE, Nov. 3, 2025 & Subpoena report, updated Nov. 4. No complete historical packet. & Reproduces movement's jury-publicity claim.\\
+N17 & Daily Beast, Nov. 7, 2025 & Subpoena report. Shares SFGATE confirmation. & Interviews Kirchner.\\
+N18 & Atlantic, Dec. 4, 2025 & Profile. No earlier ASI-specific packet. & Permanent ASI ban and contrast with PauseAI.\\
+N19 & Standard, Dec. 11, 2025 & Profile. Mixed speakers. & Elmore characterizes Kirchner. Hall discusses messaging.\\
+N20 & WSJ, July 11, 2026 & Contextual profile. Indexed publisher and archive body checked. & Permanent global ASI ban. April 2025 Kirchner remark separately dated \citep{wsj}.\\
+N21 & SFGATE, Dec. 9, 2025 & Profile. Mixed statement dates. & Shutdown demand and participant restriction.\\
+N22 & Standard, Dec. 2, 2025 & Follow-up outside event window. Earlier response not authenticated. & Permanent advanced-AI prohibition alongside police account.\\
+N28 & UnHerd, Feb. 23, 2026 & Profile. Publisher metadata supplies date. & Permanent AGI and ASI ban alongside discussion of messaging.\\
+N29 & Chronicle, Feb. 22, 2025 & Event report. Earlier generic platform. & AI intervention and investigation demand. Duration unstated.\\
+N30 & Fortune, Apr. 15, 2026 & Incident context \citep{goldman}. & No explicit restriction.\\
+N31 & Atlantic, May 13, 2025 & Feature. April action day unresolved. & Risk grievances and performance. No specified AI restriction.\\
+N32 & Chronicle, Apr. 27, 2026 & Separate courthouse action. Earlier generic platform. & Signs call for a stop. Duration unstated.\\
+\end{longtable}
+
+N09--N11 and N23--N27 identify the eight comparator texts, with the six collected M25 accounts listed in Table~\ref{tab:m25}. Fortune names a protest target without specifying a Stop AI restriction, which gives it an intervention code of zero.
+
+Differences in tactics complicate movement contrasts, as research on protest tactics and radical flanks indicates \citep{boyle,haines}. KQED's May 2024 PauseAI report specifies a pause in frontier development \citep{rodriguez}. The April 2026 platform adds a coalition veto over deployment but cannot benchmark the earlier report \citep{pauseevent,pauseproposal}. AP retains Just Stop Oil's 2030 fossil-fuel phaseout demand in its Stonehenge report \citep{ap,jsostone}. The M25 verdict release recalls the original licensing demand, which Reuters' sentencing text leaves unstated \citep{jsoverdict,tobin}. The Register preview and Bay Area Current profile retain specific prohibitions \citep{claburn,wang}.
+
+\section{Versions and access}
+\label{app:access}
+The public source inventory records versions and passage locations, with links to the publisher, archive, or official record used for each comparison. Table~\ref{tab:hashes} gives SHA-256 hashes of the decompressed replay HTML, preserving the source bodies from which the text was extracted.
+
+\begin{center}\small
+\begin{tabular}{l l}
+\toprule Document & SHA-256\\\midrule
+S01 & \texttt{8414f73ea0e56a84a16cc0eafec437040dff7af6684b713e16abe843b29b509d}\\
+S05 & \texttt{3d836c4763aba417808bd1d9ac45cb27a59fc52461be1ba85972421a13d58e91}\\
+S06 & \texttt{e8a208ae4ec391d32c7be5dfcd6334e3244bba4550e41b2ada90e2b28e6cca2a}\\
+\bottomrule
+\end{tabular}
+\captionof{table}{Recovered movement-page bodies. S01 is the February 1, 2025 proposal. S05 and S06 are the June 29 and August 4, 2026 trial captures.}
+\label{tab:hashes}
+\end{center}
+
+The proposal's Google Docs HTML displays a disabled-JavaScript shell but embeds text in \texttt{DOCS\_modelChunk} JSON assignments, from which parsing the insert-text strings recovered 18,563 characters without executing scripts. The trial captures yield identical substantive extracts, although their raw HTML bodies have different hashes.
+
+The literature check consulted Amenta and colleagues' full HTML article and Umamaheswar's full article, including its methods, findings, and discussion. Full PDFs were available for Green, the Indignados study, the Chilean study, and Long and Hamilton, while Nguyen and Hepp were consulted through HTML passages. For Katell and colleagues, we read indexed primary PDF passages from the introduction, methods, case, and lessons after direct retrieval failed. We used abstracts or metadata for Smith, Caren and colleagues, Boyle and colleagues, Cappelli, Lynch and Dekeyser, Mansouri and Bailey, and Haines, without reviewing the complete AI-refusal special issue.
+
+Long and Hamilton's PDF bears the printed year 2018 despite its server's 2019 upload directory, while the later tally comes from the Harvard Law program release. The M25 records are Hehir's July 18, 2024 sentencing remarks and the March 7, 2025 appeal judgment, with the verified scope given in Section~\ref{sec:m25}. The official Colston judgment supplies the ordered route to verdict, the court's warning about unknown acquittal grounds, and its holding that proportionality should not have reached the jury. Its source check is identified separately from author-verified news coding.
+
+Morning Star's complete account appears on pages 31--32 of a contemporaneous public witness exhibit, which supports both the absence of a merits-rejection claim and the positive code for assigning a procedural ruling to the jury. The WSJ body was recovered through overlapping indexed publisher and archive passages from the opening through the closing section, including the organizational mission and April 2025 conference passages, although direct browser access to the archive failed. These readings supply the final source-based decisions for both articles, with their model-assisted status distinguished from earlier author verification in the released records. Six policy-comparison fields are inapplicable because the relevant passage states no comparable Stop AI restriction, while two fields for Reichstadter's December demand cannot be estimated without a recovered earlier same-actor statement. These are limits on the comparison, not unfinished readings. Morning Star's ``yesterday'' wording conflicts with the official July 11 verdict date, while the Guardian pages display April 2025 updates, so the inventory preserves both version issues.
+
+Auxiliary sources include an August organizer announcement and its conditional-safety comment \citep{allen}, a dated reproduction of the November response \citep{mirror}, and the Future of Life Institute statement requiring safety consensus and public support, with conflicting index dates retained \citep{fli,fliindexes}.
+
+\section{Testing policy substitution}
+\label{app:logic}
+The substitution screen identifies no explicit replacement of prohibition with sufficient safety-based permission in twenty-four assessed news texts. Seven event reports have an earlier source available for a component comparison, but none resolves the complete policy bundle, so the screen supplies no substitution-rate estimate or proof that the reports faithfully convey the full policy.
+
+No eligible paired historical source contains both an explicit risk rationale and a political authorization or veto requirement for AI development or deployment, so the collection cannot test whether reporting drops such an authorization requirement. An opinion poll or request to attend court does not supply the missing authorization procedure.
+
+We use \emph{explicit policy substitution} for reporting that attributes a rule incompatible with the source's stated policy. To establish that a report relaxes a restriction, identify an arrangement it presents as sufficient to satisfy the demand but the source expressly rules out. Let $\mathcal{P}^{+}_{r}$ contain those reported sufficient arrangements and $\mathcal{V}_{s}$ contain arrangements that violate an explicit source requirement. The test requires
+\begin{equation}
+\mathcal{P}^{+}_{r}\cap\mathcal{V}_{s}\neq\varnothing.
+\label{eq:witness}
+\end{equation}
+A positive code requires an arrangement in that intersection, supported by passages from both texts. Strengthening reverses the comparison, requiring an arrangement the source explicitly permits and the report forbids.
+
+Suppose a source requires safety evidence and public authorization before development resumes, with resumption written as $B$, safety as $S$, and authorization as $A$. Its rule is $B\Rightarrow(S\land A)$, while reporting only that safety is required gives $B\Rightarrow S$ and leaves authorization unmentioned without granting permission to resume. Reporting that safety alone suffices does grant permission, so the arrangement $B=1,S=1,A=0$ meets Equation~\ref{eq:witness}.
+
+The accompanying reproduction code enumerates all eight combinations, with the four resumption states shown in Table~\ref{tab:logic}.
+
+\begin{table}[!htbp]
+\centering\small
+\begin{tabularx}{\textwidth}{ccc c Y}
+\toprule $B$ & $S$ & $A$ & Source requirements met & Evidence under the reported rule\\\midrule
+1 & 0 & 0 & No & Safety-based permission does not apply.\\
+1 & 0 & 1 & No & Safety-based permission does not apply.\\
+1 & 1 & 0 & No & The sufficient-safety rule supplies a contradiction.\\
+1 & 1 & 1 & Yes & The arrangement violates neither source requirement.\\
+\bottomrule
+\end{tabularx}
+\caption{Logical cases for resumption. The four states with $B=0$ supply no resumption example.}
+\label{tab:logic}
+\end{table}
+
+\end{document}
